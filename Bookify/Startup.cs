@@ -1,5 +1,7 @@
 ﻿using Bookify.Notification;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Persistence;
 
 namespace Bookify;
 
@@ -21,6 +23,11 @@ public class Startup
         services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Alif_Project.API", Version = "v1" });
+        });
+        
+        services.AddDbContext<DataContext>(opt =>
+        {
+            opt.UseSqlServer(Configuration.GetConnectionString("Default"));
         });
     }
 

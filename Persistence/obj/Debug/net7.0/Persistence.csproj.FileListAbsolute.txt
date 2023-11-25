@@ -1,0 +1,15 @@
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\bin\Debug\net7.0\Persistence.deps.json
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\bin\Debug\net7.0\Persistence.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\bin\Debug\net7.0\Persistence.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\bin\Debug\net7.0\Entity.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\bin\Debug\net7.0\Entity.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\Persistence.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Persistence\obj\Debug\net7.0\ref\Persistence.dll

@@ -13,6 +13,6 @@ public class DataContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        base.OnModelCreating(builder);
+        builder.Entity<CardEvent>().HasNoKey();
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Application.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Entity.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Persistence.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Entity.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\bin\Debug\net7.0\Persistence.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Application\obj\Debug\net7.0\ref\Application.dll
