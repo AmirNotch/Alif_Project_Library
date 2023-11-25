@@ -130,9 +130,23 @@
               "target": "Package",
               "version": "[7.0.14, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.4, )"
             }
           },
           "imports": [

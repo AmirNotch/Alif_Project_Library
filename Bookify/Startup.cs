@@ -1,4 +1,5 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using Bookify.Notification;
+using Microsoft.OpenApi.Models;
 
 namespace Bookify;
 
@@ -39,7 +40,13 @@ public class Startup
 
         app.UseEndpoints(endpoints =>
         {
+            endpoints.MapHub<NotificationHub>("/notificationHub");
             endpoints.MapControllers();
         });
+        
+        NotificationHub.OnNotification += (message) =>
+        {
+            Console.WriteLine($"Received notification: {message}");
+        };
     }
 }
