@@ -3389,6 +3389,7 @@
         "dependencies": {
           "Entity": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Newtonsoft.Json": "13.0.3",
           "Persistence": "1.0.0"
         },
         "compile": {
