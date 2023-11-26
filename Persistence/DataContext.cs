@@ -7,12 +7,12 @@ public class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
-        Database.Migrate();
+       // Database.Migrate();
     }
     public DbSet<CardEvent> CardEvents { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder builder)
-    {
-        builder.Entity<CardEvent>().HasNoKey();
-    }
+    // protected override void OnModelCreating(ModelBuilder builder)
+    // {
+    //     //base.OnModelCreating(builder);
+    // }
 }

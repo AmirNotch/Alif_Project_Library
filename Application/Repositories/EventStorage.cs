@@ -12,15 +12,10 @@ public class EventStorage : IEventStorage
         _context = context;
     }
     
-    public async Task<bool> CreateEventStorage(CardEvent cardEvent)
+    public async Task<CardEvent> CreateEventStorage(CardEvent cardEvent)
     {
-        await _context.CardEvents.AddAsync(cardEvent);
-        return await Save();
-    }
-
-    public async Task<bool> Save()
-    {
+        _context.CardEvents.Add(cardEvent);
         var saved = await _context.SaveChangesAsync();
-        return saved >= 0;
+        return saved > 0 ? cardEvent : null;
     }
 }

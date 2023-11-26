@@ -15,14 +15,15 @@ namespace Persistence.Migrations
                 name: "CardEvents",
                 columns: table => new
                 {
+                    SessionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     OrderType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SessionId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Card = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EventDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     WebsiteUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
+                    table.PrimaryKey("PK_CardEvents", x => x.SessionId);
                 });
         }
 

@@ -12,7 +12,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231125145000_InitMigrations")]
+    [Migration("20231126120027_InitMigrations")]
     partial class InitMigrations
     {
         /// <inheritdoc />
@@ -27,6 +27,10 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Entity.CardEvent", b =>
                 {
+                    b.Property<Guid>("SessionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Card")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -38,13 +42,11 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SessionId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("WebsiteUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SessionId");
 
                     b.ToTable("CardEvents");
                 });

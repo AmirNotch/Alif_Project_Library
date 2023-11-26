@@ -98,3 +98,4 @@ C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Bookify\obj\De
 C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Bookify\obj\Debug\net7.0\Bookify.pdb
 C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Bookify\obj\Debug\net7.0\Bookify.genruntimeconfig.cache
 C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Bookify\obj\Debug\net7.0\ref\Bookify.dll
+C:\Users\ibrag\RiderProjects\CSharpMicroservices\src\Alif_Project\Bookify\bin\Debug\net7.0\Newtonsoft.Json.dll

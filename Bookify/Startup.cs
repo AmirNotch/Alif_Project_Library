@@ -1,4 +1,5 @@
-﻿using Bookify.Notification;
+﻿using Application.Repositories;
+using Bookify.Notification;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Persistence;
@@ -29,6 +30,9 @@ public class Startup
         {
             opt.UseSqlServer(Configuration.GetConnectionString("Default"));
         });
+        services.AddSignalR();
+        services.AddScoped<IEventStorage, EventStorage>();
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

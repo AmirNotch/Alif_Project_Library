@@ -4,6 +4,7 @@ using Bookify.Notification;
 using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using Newtonsoft.Json;
 
 namespace Bookify.Controllers;
 
@@ -22,9 +23,16 @@ public class CardEventController : BaseApiController
     [ProducesResponseType(typeof(CardEvent), (int)HttpStatusCode.OK)]    
     public async Task<ActionResult<CardEvent>> CreateEventStorage([FromBody]CardEvent cardEvent)
     {
-        await _eventStorage.CreateEventStorage(cardEvent);
-        await _hubContext.Clients.All.SendAsync("ReceiveNotification", cardEvent);
+        var cardEventDTO = await _eventStorage.CreateEventStorage(cardEvent);
+        if (ReferenceEquals(cardEventDTO, null))
+        {
+            return BadRequest("Failed to create CardEvent");
+        }
+        await _hubContext.Clients.All.SendAsync("ReceiveNotification", cardEventDTO);
         
-        return CreatedAtRoute("GetEventStorage", new { orderType = cardEvent.OrderType}, cardEvent);
+        string json = JsonConvert.SerializeObject(cardEventDTO, Formatting.Indented);
+        Console.WriteLine(json);
+        
+        return Ok(cardEventDTO);
     }
 }
